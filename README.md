@@ -13,7 +13,7 @@
 
 ### One liner
 ```bash
-bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/eslint.sh)
+bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/init.sh)
 ```
 
 ---
@@ -22,7 +22,7 @@ bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/eslint.s
 You'll probably want eslint on another project too?
 Just pop this alias in your ``.bash_profile``
 ```bash
-alias eslint='bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/eslint.sh)'
+alias eslint='bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/init.sh)'
 ```
 
 ---
