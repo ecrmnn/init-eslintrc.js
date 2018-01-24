@@ -3,7 +3,7 @@ Probably the fastest way to add ESLint to your project
 
 ### One liner
 ```bash
-bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/eslint.sh)``
+bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/eslint.sh)
 ```
 
 ### As an alias
