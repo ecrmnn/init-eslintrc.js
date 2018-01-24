@@ -2,6 +2,19 @@
 Probably the fastest way to add ESLint to your project
 
 ### One liner
+```bash
+bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/eslint.sh)``
+```
+
+### As an alias
+You'll probably want eslint on another project too?
+Just pop this alias in your ``.bash_profile``
+```bash
+alias eslint='bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/master/eslint.sh)'
+```
+
+### WYSIWYG
+Ok, ok I get it. You don't want to run some scary command and risk it all. Well, copy, inspect and (maybe) paste if you like.
 - Creates ``.eslintrc.js`` with Airbnb base and ``newline-before-return``
 - Create package.json if it does not exist
 - Run npm install and save as devDependencies
