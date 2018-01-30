@@ -2,7 +2,11 @@
 > Probably the fastest way to add ESLint to your project
 
 ### What does it do?
-- Creates ``.eslintrc.js`` with Airbnb base and ``newline-before-return``
+- Creates ``.eslintrc.js`` with Airbnb base and some additional rules
+  - [curly](https://eslint.org/docs/rules/curly)
+  - [newline-before-return]((https://eslint.org/docs/rules/newline-before-return)
+  - [no-console](https://eslint.org/docs/rules/no-console)
+  - [no-ternary](https://eslint.org/docs/rules/no-ternary)
 - Create package.json if it does not exist
 - Run npm install and save as devDependencies
   - eslint
