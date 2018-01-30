@@ -4,7 +4,7 @@
 ### What does it do?
 - Creates ``.eslintrc.js`` with Airbnb base and some additional rules
   - [curly](https://eslint.org/docs/rules/curly)
-  - [newline-before-return]((https://eslint.org/docs/rules/newline-before-return)
+  - [newline-before-return](https://eslint.org/docs/rules/newline-before-return)
   - [no-console](https://eslint.org/docs/rules/no-console)
   - [no-ternary](https://eslint.org/docs/rules/no-ternary)
 - Create package.json if it does not exist
