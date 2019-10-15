@@ -35,5 +35,5 @@ alias eslint='bash <(curl https://raw.githubusercontent.com/ecrmnn/eslintrc.js/m
 ### WYSIWYG
 Ok, ok I get it. You don't want to run some scary command and risk it all. Well, copy, inspect and (maybe) paste if you like.
 ```bash
-printf "module.exports = {\n  extends: 'airbnb-base',\n  parserOptions: {\n    sourceType: 'script',\n  },\n  plugins: [\n    'import',\n    'markdown',\n  ],\n  rules: {\n    'curly': [\n      'error',\n      'all',\n    ],\n    'brace-style': [\n      'error',\n      '1tbs',\n      { 'allowSingleLine': false },\n    ],\n    'no-console': 'error',\n    'no-ternary': 'error',\n    'newline-before-return': 'error',\n  },\n};\n" > .eslintrc.js && [ -f package.json ] || echo {} > package.json && npm install eslint eslint-config-airbnb-base eslint-plugin-import -D
+printf "module.exports = {\n  extends: 'airbnb-base',\n  parserOptions: {\n    sourceType: 'script',\n  },\n  plugins: [\n    'import',\n  ],\n  rules: {\n    'curly': [\n      'error',\n      'all',\n    ],\n    'brace-style': [\n      'error',\n      '1tbs',\n      { 'allowSingleLine': false },\n    ],\n    'no-console': 'error',\n    'no-ternary': 'error',\n    'newline-before-return': 'error',\n  },\n};\n" > .eslintrc.js && [ -f package.json ] || echo {} > package.json && npm install eslint eslint-config-airbnb-base eslint-plugin-import -D
 ```
